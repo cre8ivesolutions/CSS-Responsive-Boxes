@@ -1,3 +1,31 @@
 body {
-  background: blanchedalmond;
+  background: turquoise;
+}
+* {
+  border: 4px dotted hsl(181, 85%, 21%);
+}
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  outline: 2px solid purple;  
+}
+header, footer  {
+  flex-grow: 1;
+}
+main {
+  flex-grow:3;
+}
+@media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+header {
+    width: 100%;
+  }
+main, footer, header {
+    margin: 1em;
+  }
 }
