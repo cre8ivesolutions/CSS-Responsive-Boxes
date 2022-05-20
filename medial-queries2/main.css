@@ -12,6 +12,7 @@ body {
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
+  outline: 4px darkred;
 }
 
 .wrapper {
@@ -41,7 +42,6 @@ aside  {
 aside > div {
   flex-grow: 10;
   margin: .5em;
-  /* min-width: 20vh; */
 }
 
 main {
